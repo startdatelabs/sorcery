@@ -49,7 +49,7 @@ module Sorcery
     require 'sorcery/crypto_providers/sha256'
     require 'sorcery/crypto_providers/sha512'
   end
-
+=begin
   module TestHelpers
     require 'sorcery/test_helpers/internal'
 
@@ -62,7 +62,7 @@ module Sorcery
       require 'sorcery/test_helpers/internal/rails'
     end
   end
-
+=end
   require 'sorcery/adapters/base_adapter'
 
   if defined?(ActiveRecord::Base)
